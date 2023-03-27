@@ -20,7 +20,8 @@ WHERE {
 
 SERVICE <https://query.wikidata.org/sparql> { 
 ?work wdt:P243 ?oclcNumber. }
-}```
+}
+```
 
 # Querying Multiple Datasets
 
@@ -56,7 +57,8 @@ UNION
 ?work dct:title ?workLabel
  }
 } 
-}```
+}
+```
 
 # Creating a New Graph from Data in Different Datasets
 
